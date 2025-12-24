@@ -2,7 +2,8 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"],
+      "~/*": ["./app/*"]
     },
     "types": ["@types/node", "@nuxt/types", "ant-design-vue"],
     "includes": ["types/*.d.ts"]
